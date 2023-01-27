@@ -26,7 +26,7 @@ namespace CarpetCalcMethods
         static double GetCarpetCost(double area, double price) 
         {
             return area* price; //no local variable created, rturn can directly return a computation or result of operation
-        }
+        } //
         static void GetCarpetPrice(string carpetType1, string carpetType2, out double price1, out double price2)
         {
             Write("Enter the price for {0} carpet:", carpetType1);
